@@ -6,6 +6,7 @@ let categories = [
     "Fictional companies",
     "Painfully obvious"
 ];
+    
 
 /* TODO: Program the following:
  *  Print the category titles.
@@ -34,4 +35,9 @@ let categories = [
  */
 function renderCategories() {
     // Add code here
+    for (let i=0; i<categories.length;i++){
+        $(".categories").append(
+            "< ='category'
+        )
+    }
 }
